@@ -1,0 +1,4 @@
+CREATE USER 'springdemouser'@'localhost' IDENTIFIED BY 'spring_demo1';
+create	database springDemoDB;
+grant all privileges on *. springDemoDB to 'springdemousser'@'localhost';
+flush privileges;
